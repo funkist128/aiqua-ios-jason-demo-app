@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833B6FAECF2B9CBB46B14453 /* Pods_jason_test_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8206CE17E4A537DB136BE2 /* Pods_jason_test_app.framework */; };
+		A95D660823FA86F30066ED42 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D660723FA86F30066ED42 /* UserNotifications.framework */; };
+		A95D661423FA8CA80066ED42 /* jason_test_service_extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A95D660D23FA8CA80066ED42 /* jason_test_service_extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A95D661B23FA8D020066ED42 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D661A23FA8D020066ED42 /* NotificationService.swift */; };
+		A95D662223FA8DA60066ED42 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D660723FA86F30066ED42 /* UserNotifications.framework */; };
+		A95D662423FA8DA60066ED42 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D662323FA8DA60066ED42 /* UserNotificationsUI.framework */; };
+		A95D662E23FA8DA60066ED42 /* jason_test_content_extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A95D662123FA8DA60066ED42 /* jason_test_content_extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A95D663523FA8DDB0066ED42 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95D663323FA8DDA0066ED42 /* MainInterface.storyboard */; };
+		A95D663623FA8DDB0066ED42 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D663423FA8DDB0066ED42 /* NotificationViewController.swift */; };
+		A95D663923FA8ECE0066ED42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D663823FA8ECE0066ED42 /* QuartzCore.framework */; };
+		A95D664623FA90260066ED42 /* libQGNotificationSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D664423FA90260066ED42 /* libQGNotificationSdk.a */; };
+		A95D664723FA90260066ED42 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D664523FA90260066ED42 /* iCarousel.m */; };
+		A95D664C23FA904A0066ED42 /* libQGNotificationSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95D664A23FA904A0066ED42 /* libQGNotificationSdk.a */; };
+		A95D664D23FA904A0066ED42 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D664B23FA904A0066ED42 /* iCarousel.m */; };
 		A9B0247523FA819C0026F995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0247423FA819C0026F995 /* AppDelegate.swift */; };
 		A9B0247723FA819C0026F995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B0247623FA819C0026F995 /* ViewController.swift */; };
 		A9B0247A23FA819C0026F995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0247823FA819C0026F995 /* Main.storyboard */; };
@@ -14,7 +28,64 @@
 		A9B0247F23FA819F0026F995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B0247D23FA819F0026F995 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A95D661223FA8CA80066ED42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B0246923FA819C0026F995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95D660C23FA8CA80066ED42;
+			remoteInfo = jason_test_service_extension;
+		};
+		A95D662C23FA8DA60066ED42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B0246923FA819C0026F995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95D662023FA8DA60066ED42;
+			remoteInfo = jason_test_content_extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A95D661823FA8CA80066ED42 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A95D662E23FA8DA60066ED42 /* jason_test_content_extension.appex in Embed App Extensions */,
+				A95D661423FA8CA80066ED42 /* jason_test_service_extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7663A2F1E5750FB571118D85 /* Pods-jason_test_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jason_test_app.debug.xcconfig"; path = "Target Support Files/Pods-jason_test_app/Pods-jason_test_app.debug.xcconfig"; sourceTree = "<group>"; };
+		A95D660523FA83060066ED42 /* jason_test_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jason_test_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		A95D660623FA83BD0066ED42 /* jason_test_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jason_test_app.entitlements; sourceTree = "<group>"; };
+		A95D660723FA86F30066ED42 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		A95D660D23FA8CA80066ED42 /* jason_test_service_extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = jason_test_service_extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95D661123FA8CA80066ED42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95D661923FA8D010066ED42 /* jason_test_service_extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jason_test_service_extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A95D661A23FA8D020066ED42 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A95D661C23FA8D1E0066ED42 /* jason_test_service_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jason_test_service_extension.entitlements; sourceTree = "<group>"; };
+		A95D662123FA8DA60066ED42 /* jason_test_content_extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = jason_test_content_extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95D662323FA8DA60066ED42 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		A95D662B23FA8DA60066ED42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95D663223FA8DDA0066ED42 /* jason_test_content_extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jason_test_content_extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A95D663323FA8DDA0066ED42 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		A95D663423FA8DDB0066ED42 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		A95D663723FA8E380066ED42 /* jason_test_content_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jason_test_content_extension.entitlements; sourceTree = "<group>"; };
+		A95D663823FA8ECE0066ED42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A95D664223FA90260066ED42 /* QGNotificationSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGNotificationSdk.h; sourceTree = "<group>"; };
+		A95D664323FA90260066ED42 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A95D664423FA90260066ED42 /* libQGNotificationSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQGNotificationSdk.a; sourceTree = "<group>"; };
+		A95D664523FA90260066ED42 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A95D664823FA90490066ED42 /* QGNotificationSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGNotificationSdk.h; sourceTree = "<group>"; };
+		A95D664923FA90490066ED42 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A95D664A23FA904A0066ED42 /* libQGNotificationSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQGNotificationSdk.a; sourceTree = "<group>"; };
+		A95D664B23FA904A0066ED42 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		A9B0247123FA819C0026F995 /* jason_test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jason_test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B0247423FA819C0026F995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B0247623FA819C0026F995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +93,83 @@
 		A9B0247B23FA819F0026F995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B0247E23FA819F0026F995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B0248023FA819F0026F995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8206CE17E4A537DB136BE2 /* Pods_jason_test_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jason_test_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58E457A603BB7675A37C03F /* Pods-jason_test_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jason_test_app.release.xcconfig"; path = "Target Support Files/Pods-jason_test_app/Pods-jason_test_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A95D660A23FA8CA80066ED42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D664C23FA904A0066ED42 /* libQGNotificationSdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D661E23FA8DA60066ED42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D664623FA90260066ED42 /* libQGNotificationSdk.a in Frameworks */,
+				A95D663923FA8ECE0066ED42 /* QuartzCore.framework in Frameworks */,
+				A95D662423FA8DA60066ED42 /* UserNotificationsUI.framework in Frameworks */,
+				A95D662223FA8DA60066ED42 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B0246E23FA819C0026F995 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95D660823FA86F30066ED42 /* UserNotifications.framework in Frameworks */,
+				833B6FAECF2B9CBB46B14453 /* Pods_jason_test_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A95D660E23FA8CA80066ED42 /* jason_test_service_extension */ = {
+			isa = PBXGroup;
+			children = (
+				A95D664923FA90490066ED42 /* iCarousel.h */,
+				A95D664B23FA904A0066ED42 /* iCarousel.m */,
+				A95D664A23FA904A0066ED42 /* libQGNotificationSdk.a */,
+				A95D664823FA90490066ED42 /* QGNotificationSdk.h */,
+				A95D661C23FA8D1E0066ED42 /* jason_test_service_extension.entitlements */,
+				A95D661A23FA8D020066ED42 /* NotificationService.swift */,
+				A95D661123FA8CA80066ED42 /* Info.plist */,
+				A95D661923FA8D010066ED42 /* jason_test_service_extension-Bridging-Header.h */,
+			);
+			path = jason_test_service_extension;
+			sourceTree = "<group>";
+		};
+		A95D662523FA8DA60066ED42 /* jason_test_content_extension */ = {
+			isa = PBXGroup;
+			children = (
+				A95D664323FA90260066ED42 /* iCarousel.h */,
+				A95D664523FA90260066ED42 /* iCarousel.m */,
+				A95D664423FA90260066ED42 /* libQGNotificationSdk.a */,
+				A95D664223FA90260066ED42 /* QGNotificationSdk.h */,
+				A95D663723FA8E380066ED42 /* jason_test_content_extension.entitlements */,
+				A95D663323FA8DDA0066ED42 /* MainInterface.storyboard */,
+				A95D663423FA8DDB0066ED42 /* NotificationViewController.swift */,
+				A95D662B23FA8DA60066ED42 /* Info.plist */,
+				A95D663223FA8DDA0066ED42 /* jason_test_content_extension-Bridging-Header.h */,
+			);
+			path = jason_test_content_extension;
+			sourceTree = "<group>";
+		};
 		A9B0246823FA819C0026F995 = {
 			isa = PBXGroup;
 			children = (
+				A95D660523FA83060066ED42 /* jason_test_app-Bridging-Header.h */,
 				A9B0247323FA819C0026F995 /* jason_test_app */,
+				A95D660E23FA8CA80066ED42 /* jason_test_service_extension */,
+				A95D662523FA8DA60066ED42 /* jason_test_content_extension */,
 				A9B0247223FA819C0026F995 /* Products */,
+				C2D022F12C2D6238D504D1B3 /* Pods */,
+				B8847F3E65B7E2AE66233CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				A9B0247123FA819C0026F995 /* jason_test_app.app */,
+				A95D660D23FA8CA80066ED42 /* jason_test_service_extension.appex */,
+				A95D662123FA8DA60066ED42 /* jason_test_content_extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +186,7 @@
 		A9B0247323FA819C0026F995 /* jason_test_app */ = {
 			isa = PBXGroup;
 			children = (
+				A95D660623FA83BD0066ED42 /* jason_test_app.entitlements */,
 				A9B0247423FA819C0026F995 /* AppDelegate.swift */,
 				A9B0247623FA819C0026F995 /* ViewController.swift */,
 				A9B0247823FA819C0026F995 /* Main.storyboard */,
@@ -64,20 +197,78 @@
 			path = jason_test_app;
 			sourceTree = "<group>";
 		};
+		B8847F3E65B7E2AE66233CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A95D663823FA8ECE0066ED42 /* QuartzCore.framework */,
+				A95D660723FA86F30066ED42 /* UserNotifications.framework */,
+				EA8206CE17E4A537DB136BE2 /* Pods_jason_test_app.framework */,
+				A95D662323FA8DA60066ED42 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2D022F12C2D6238D504D1B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7663A2F1E5750FB571118D85 /* Pods-jason_test_app.debug.xcconfig */,
+				F58E457A603BB7675A37C03F /* Pods-jason_test_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9B0247023FA819C0026F995 /* jason_test_app */ = {
+		A95D660C23FA8CA80066ED42 /* jason_test_service_extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9B0248323FA819F0026F995 /* Build configuration list for PBXNativeTarget "jason_test_app" */;
+			buildConfigurationList = A95D661523FA8CA80066ED42 /* Build configuration list for PBXNativeTarget "jason_test_service_extension" */;
 			buildPhases = (
-				A9B0246D23FA819C0026F995 /* Sources */,
-				A9B0246E23FA819C0026F995 /* Frameworks */,
-				A9B0246F23FA819C0026F995 /* Resources */,
+				A95D660923FA8CA80066ED42 /* Sources */,
+				A95D660A23FA8CA80066ED42 /* Frameworks */,
+				A95D660B23FA8CA80066ED42 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = jason_test_service_extension;
+			productName = jason_test_service_extension;
+			productReference = A95D660D23FA8CA80066ED42 /* jason_test_service_extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A95D662023FA8DA60066ED42 /* jason_test_content_extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95D662F23FA8DA60066ED42 /* Build configuration list for PBXNativeTarget "jason_test_content_extension" */;
+			buildPhases = (
+				A95D661D23FA8DA60066ED42 /* Sources */,
+				A95D661E23FA8DA60066ED42 /* Frameworks */,
+				A95D661F23FA8DA60066ED42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jason_test_content_extension;
+			productName = jason_test_content_extension;
+			productReference = A95D662123FA8DA60066ED42 /* jason_test_content_extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A9B0247023FA819C0026F995 /* jason_test_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B0248323FA819F0026F995 /* Build configuration list for PBXNativeTarget "jason_test_app" */;
+			buildPhases = (
+				FDF99D912BC31791C49C9C17 /* [CP] Check Pods Manifest.lock */,
+				A9B0246D23FA819C0026F995 /* Sources */,
+				A9B0246E23FA819C0026F995 /* Frameworks */,
+				A9B0246F23FA819C0026F995 /* Resources */,
+				A95D661823FA8CA80066ED42 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95D661323FA8CA80066ED42 /* PBXTargetDependency */,
+				A95D662D23FA8DA60066ED42 /* PBXTargetDependency */,
 			);
 			name = jason_test_app;
 			productName = jason_test_app;
@@ -94,8 +285,37 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Jason.Chang;
 				TargetAttributes = {
+					A95D660C23FA8CA80066ED42 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A95D662023FA8DA60066ED42 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					A9B0247023FA819C0026F995 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,11 +333,28 @@
 			projectRoot = "";
 			targets = (
 				A9B0247023FA819C0026F995 /* jason_test_app */,
+				A95D660C23FA8CA80066ED42 /* jason_test_service_extension */,
+				A95D662023FA8DA60066ED42 /* jason_test_content_extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A95D660B23FA8CA80066ED42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D661F23FA8DA60066ED42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D663523FA8DDB0066ED42 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B0246F23FA819C0026F995 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,7 +367,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FDF99D912BC31791C49C9C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jason_test_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A95D660923FA8CA80066ED42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D661B23FA8D020066ED42 /* NotificationService.swift in Sources */,
+				A95D664D23FA904A0066ED42 /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D661D23FA8DA60066ED42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D664723FA90260066ED42 /* iCarousel.m in Sources */,
+				A95D663623FA8DDB0066ED42 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B0246D23FA819C0026F995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +421,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95D661323FA8CA80066ED42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95D660C23FA8CA80066ED42 /* jason_test_service_extension */;
+			targetProxy = A95D661223FA8CA80066ED42 /* PBXContainerItemProxy */;
+		};
+		A95D662D23FA8DA60066ED42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95D662023FA8DA60066ED42 /* jason_test_content_extension */;
+			targetProxy = A95D662C23FA8DA60066ED42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A9B0247823FA819C0026F995 /* Main.storyboard */ = {
@@ -162,6 +455,118 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A95D661623FA8CA80066ED42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = jason_test_service_extension/jason_test_service_extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V72QYCH5UU;
+				INFOPLIST_FILE = jason_test_service_extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jason_test_service_extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app.jason-test-service-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_service_extension/jason_test_service_extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95D661723FA8CA80066ED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = jason_test_service_extension/jason_test_service_extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V72QYCH5UU;
+				INFOPLIST_FILE = jason_test_service_extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jason_test_service_extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app.jason-test-service-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_service_extension/jason_test_service_extension-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A95D663023FA8DA60066ED42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = jason_test_content_extension/jason_test_content_extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V72QYCH5UU;
+				INFOPLIST_FILE = jason_test_content_extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jason_test_service_extension",
+					"$(PROJECT_DIR)/jason_test_content_extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app.jason-test-content-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_content_extension/jason_test_content_extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95D663123FA8DA60066ED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = jason_test_content_extension/jason_test_content_extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V72QYCH5UU;
+				INFOPLIST_FILE = jason_test_content_extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/jason_test_service_extension",
+					"$(PROJECT_DIR)/jason_test_content_extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app.jason-test-content-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_content_extension/jason_test_content_extension-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A9B0248123FA819F0026F995 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,8 +685,11 @@
 		};
 		A9B0248423FA819F0026F995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7663A2F1E5750FB571118D85 /* Pods-jason_test_app.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jason_test_app/jason_test_app.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V72QYCH5UU;
 				INFOPLIST_FILE = jason_test_app/Info.plist;
@@ -291,6 +699,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_app/jason_test_app-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +707,11 @@
 		};
 		A9B0248523FA819F0026F995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58E457A603BB7675A37C03F /* Pods-jason_test_app.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jason_test_app/jason_test_app.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V72QYCH5UU;
 				INFOPLIST_FILE = jason_test_app/Info.plist;
@@ -309,6 +721,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appier.jason.jason-test-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jason_test_app/jason_test_app-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +730,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A95D661523FA8CA80066ED42 /* Build configuration list for PBXNativeTarget "jason_test_service_extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D661623FA8CA80066ED42 /* Debug */,
+				A95D661723FA8CA80066ED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95D662F23FA8DA60066ED42 /* Build configuration list for PBXNativeTarget "jason_test_content_extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95D663023FA8DA60066ED42 /* Debug */,
+				A95D663123FA8DA60066ED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9B0246C23FA819C0026F995 /* Build configuration list for PBXProject "jason_test_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,18 @@
+PODS:
+  - quantumgraph (5.2.1):
+    - quantumgraph/ios-sdk (= 5.2.1)
+  - quantumgraph/ios-sdk (5.2.1)
+
+DEPENDENCIES:
+  - quantumgraph
+
+SPEC REPOS:
+  trunk:
+    - quantumgraph
+
+SPEC CHECKSUMS:
+  quantumgraph: 677a219d7406fc3c316647591c32a07572ca6e6c
+
+PODFILE CHECKSUM: 042b75dc10e570187c349ef40f8f82c18efda94e
+
+COCOAPODS: 1.8.4
